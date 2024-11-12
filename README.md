@@ -88,7 +88,7 @@ The following commands should prepare O3DE (assuming that the project repository
 
 ```bash
 cd ${WORKDIR}
-git clone --tag 2409.0 --single-branch https://github.com/o3de/o3de.git
+git clone --branch 2409.0 --single-branch https://github.com/o3de/o3de.git
 cd o3de
 git lfs install
 git lfs pull
